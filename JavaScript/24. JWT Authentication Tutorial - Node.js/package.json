@@ -1,0 +1,22 @@
+{
+  "name": "24.-jwt-authentication-tutorial---node",
+  "version": "1.0.0",
+  "description": "JWT Authentication Tutorial - Node.js",
+  "keywords": [
+    "jwt"
+  ],
+  "license": "ISC",
+  "author": "devhanza",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "devStart": "node --watch server.js",
+    "devStartAuth": "node --watch authServer.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
